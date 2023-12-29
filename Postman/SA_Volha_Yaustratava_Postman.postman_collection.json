@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "0e290c49-115b-4eb9-8293-94f128d899f2",
+		"name": "SA_Volha_Yaustratava_Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32026139"
+	},
+	"item": [
+		{
+			"name": "New_id_145",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 129,\r\n    \"title\": \"Stories from the lives of young programmer graduates ^_^\",\r\n    \"text\": \"Mini stories that tell briefly and in a humorous style about the problems faced by young IT specialists https://missisvolk.github.io/animate-Bayan/index.html\",\r\n    \"userName\": \"Volha Yaustratava\",\r\n  \"time\": \"1970-01-01T10:12:31.548996\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://93.84.86.69:9099/news_applications/v1/news/145",
+					"protocol": "http",
+					"host": [
+						"93",
+						"84",
+						"86",
+						"69"
+					],
+					"port": "9099",
+					"path": [
+						"news_applications",
+						"v1",
+						"news",
+						"145"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New_id_145",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 129,\r\n    \"title\": \"Stories from the lives of young programmer graduates ^_^ 29-12-2023 \",\r\n    \"text\": \"Mini stories that tell briefly and in a humorous style about the problems faced by young IT specialists https://missisvolk.github.io/animate-Bayan/index.html\",\r\n    \"userName\": \"Volha Yaustratava\",\r\n    \"time\": \"1970-01-01T10:12:31.548996\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://93.84.86.69:9099/news_applications/v1/news",
+					"protocol": "http",
+					"host": [
+						"93",
+						"84",
+						"86",
+						"69"
+					],
+					"port": "9099",
+					"path": [
+						"news_applications",
+						"v1",
+						"news"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New_id_145",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 145,\r\n    \"title\": \"Stories from the lives of young programmer graduates ^_^ 29-12-2023 \",\r\n    \"text\": \"Mini stories that tell briefly and in a humorous style about the problems faced by young IT specialists https://missisvolk.github.io/animate-Bayan/index.html\",\r\n    \"userName\": \"Volha Yaustratava\",\r\n    \"time\": \"1970-01-01T10:12:31.548996\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://93.84.86.69:9099/news_applications/v1/news",
+							"protocol": "http",
+							"host": [
+								"93",
+								"84",
+								"86",
+								"69"
+							],
+							"port": "9099",
+							"path": [
+								"news_applications",
+								"v1",
+								"news"
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 28 Dec 2023 23:00:59 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"timestamp\": \"2023-12-28T23:00:59.772+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/news_applications/v1/news\"\n}"
+				}
+			]
+		}
+	]
+}
